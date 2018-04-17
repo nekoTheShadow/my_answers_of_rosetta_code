@@ -15,7 +15,6 @@ if __name__ == '__main__':
         for i in range(n, size + 1, n):
             is_open[i] = not is_open[i]
     
-    answer = ' '.join(map(str, (i for i in range(1, size + 1) if is_open[i])))
-    print(answer)
+    print(*(i for i in range(1, size + 1) if is_open[i]))
     # => 1 4 9 16 25 36 49 64 81 100
     
