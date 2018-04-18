@@ -7,8 +7,9 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
- * ‚»‚Ìƒ^ƒCƒgƒ‹‚Ì’Ê‚èSleep Sort‚ğÀ‘•‚µ‚È‚³‚¢‚Æ‚¢‚¤–â‘èB
- * ƒ}ƒ‹ƒ`ƒXƒŒƒbƒh‚à‚µ‚­‚Íƒ}ƒ‹ƒ`ƒvƒƒZƒX‚ğ—˜—p‚·‚é‚Ì‚ª‚æ‚³‚°B 
+ * Sorting algorithms/Sleep sort: https://rosettacode.org/wiki/Sorting_algorithms/Sleep_sort
+ * ãã®ã‚¿ã‚¤ãƒˆãƒ«ã®é€šã‚ŠSleep Sortã‚’å®Ÿè£…ã—ãªã•ã„ã¨ã„ã†å•é¡Œã€‚
+ * ãƒãƒ«ãƒã‚¹ãƒ¬ãƒƒãƒ‰ã‚‚ã—ãã¯ãƒãƒ«ãƒãƒ—ãƒ­ã‚»ã‚¹ã‚’åˆ©ç”¨ã™ã‚‹ã®ãŒã‚ˆã•ã’ã€‚ 
  */
 public class SleepSort {
 	public static void main(String[] args) {
